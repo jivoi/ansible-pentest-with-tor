@@ -1,0 +1,6 @@
+---
+- name: reload tor
+  service: name=tor state=reloaded
+
+- name: restart tor
+  service: name=tor state=restarted
